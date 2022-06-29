@@ -1,0 +1,28 @@
+^F:\MC-PRINT3\STARPRINTSDK_FLUTTER_IOS\BUILD\WINDOWS\CMAKEFILES\0FA0D1821BFA602E2FBF3A4D3CBA1907\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=F:\Flutter\flutter PROJECT_DIR=F:\mc-Print3\StarPrintSDK_Flutter_iOS FLUTTER_ROOT=F:\Flutter\flutter FLUTTER_EPHEMERAL_DIR=F:\mc-Print3\StarPrintSDK_Flutter_iOS\windows\flutter\ephemeral PROJECT_DIR=F:\mc-Print3\StarPrintSDK_Flutter_iOS FLUTTER_TARGET=F:\mc-Print3\StarPrintSDK_Flutter_iOS\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=F:\mc-Print3\StarPrintSDK_Flutter_iOS\.dart_tool\package_config.json F:/Flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\MC-PRINT3\STARPRINTSDK_FLUTTER_IOS\BUILD\WINDOWS\CMAKEFILES\B17594B620AEA32F15D0EA8E78A522FB\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\MC-PRINT3\STARPRINTSDK_FLUTTER_IOS\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/mc-Print3/StarPrintSDK_Flutter_iOS/windows -BF:/mc-Print3/StarPrintSDK_Flutter_iOS/build/windows --check-stamp-file F:/mc-Print3/StarPrintSDK_Flutter_iOS/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

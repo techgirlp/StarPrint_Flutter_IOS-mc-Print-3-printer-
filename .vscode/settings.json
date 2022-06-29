@@ -1,0 +1,8 @@
+{
+    "git.untrackedChanges": "mixed",
+    "github.gitAuthentication": false,
+    "search.useIgnoreFiles": false,
+    "files.watcherExclude": {
+        ".git": true
+    }
+}

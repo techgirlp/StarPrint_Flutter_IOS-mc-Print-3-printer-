@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\mc-Print3\StarPrintSDK_Flutter_iOS\build\windows\CMakeFiles\b17594b620aea32f15d0ea8e78a522fb\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E9764A82-8A05-3692-A867-B0144187A91F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
