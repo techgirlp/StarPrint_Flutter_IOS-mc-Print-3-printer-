@@ -73,7 +73,15 @@ var currentSetting: PrinterSetting? = nil
     printChannel.setMethodCallHandler({
         (call: FlutterMethodCall, result: @escaping FlutterResult) -> Void in
         
+        guard call.method == "printSample" else {
+            result(FlutterMethodNotImplemented)
+            return
+        }
         guard call.method == "connectSample" else {
+            result(FlutterMethodNotImplemented)
+            return
+        }
+        guard call.method == "drawerSample" else {
             result(FlutterMethodNotImplemented)
             return
         }
